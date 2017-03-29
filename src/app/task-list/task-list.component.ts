@@ -8,7 +8,7 @@ import { TaskListService } from './task-list.service';
 })
 export class TaskListComponent implements OnInit {
 
-  private tasks: String[];
+  tasks: String[];
   @Output()
   startAjaxRequest = new EventEmitter<void>();
 

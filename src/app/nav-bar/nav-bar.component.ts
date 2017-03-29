@@ -7,8 +7,10 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
-  constructor(private authService: AuthService) { }
+  authService: AuthService;
+  constructor(authService1: AuthService) {
+      this.authService = authService1;
+   }
 
   ngOnInit() {
   }
