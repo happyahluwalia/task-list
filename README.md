@@ -1,3 +1,22 @@
+# Serverless REST API with Angular, Persistence, and Security
+## using Angular, MongoDB, Github Pages, Auth0 and Webtask
+
+This is a quick demo of a serverless full stack app with static file hosting, a secure REST API, and a robust persistence layer.
+Here’s how  all the moving parts are managed:
+- Identity management and security supported by Auth0 and JSON Web Tokens (JWT)
+- Serverless REST API provided by an Express app with Webtask
+- Persistence layer with a MongoDB database hosted by mLab
+- Static file hosting via deployment to GitHub Pages
+
+The application hasthe following features:
+- Sign in and sign out
+- List that shows tasks from a user
+- Form that allows users to add new tasks
+- A button for each task, to enable users to remove these tasks
+
+### Reference
+https://medium.freecodecamp.com/serverless-rest-api-with-angular-persistence-and-security-ff274f04e3d0
+
 # Simpletasklist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
